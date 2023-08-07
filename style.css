@@ -1,12 +1,13 @@
 *{
   margin: 0;
   padding: 0  ;
+  
 }
 
 body{
-  background-color: #0B0B0B !important;
-  font-family: "Raleway", sans-serif !important;
   
+  font-family: "Raleway", sans-serif !important;
+  background-image: linear-gradient(#053D66, rgb(0, 0, 0));
 }
 
 
@@ -21,13 +22,14 @@ body{
   justify-content: center;
   align-items: center;
   margin-bottom: 20vh;
+  
 }
 /* Custom CSS */
 
 
 
 .btn:hover{
-  background-color: #536FEB !important;
+  color: #1f1f1f !important;
 }
 
 .col{
@@ -48,10 +50,14 @@ body{
   color: rgb(81, 82, 80);
 }
 .container-fluid>a:hover{
-  color: #536FEB !important;
+  color: #6b717c !important;
 }
 a {
   text-decoration: none !important;
+  color: white !important;
+}
+a:hover{
+  color: #31a9ff !important;
 }
 .sm{
   display: none;
@@ -93,6 +99,7 @@ a {
     text-align: left;
     font-size: 5vw;
     font-weight: 900 !important;
+    
 }
 
 @media only screen and (max-width: 515px) {
